@@ -13,12 +13,12 @@ public class Papagaio extends Aves implements IPodeCamiñar,IPodeVoar{
 
     @Override
     public void caminar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Los papagaio caminan");
     }
 
     @Override
     public void voar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("los papagaios voan");
     }
     
 }

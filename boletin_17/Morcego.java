@@ -10,5 +10,15 @@ package boletin_17;
  * @author jalonsoriveiro
  */
 public class Morcego extends Aves implements IPodeCamiñar,IPodeVoar{
+
+    @Override
+    public void caminar() {
+        System.out.println("Morcegos caminan");
+    }
+
+    @Override
+    public void voar() {
+        System.out.println("Morcegos voan");
+    }
     
 }

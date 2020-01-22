@@ -13,12 +13,12 @@ public class Tigre implements IPodeCamiñar,IPodeNadar {
 
     @Override
     public void caminar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Los tigres caminan");
     }
 
     @Override
     public void nadar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Los tigres nadan");
     }
     
 }

@@ -13,12 +13,19 @@ public class Gato extends Felino implements IPodeCamiñar,IPodeNadar{
 
     @Override
     public void caminar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("El gato camina");
     }
 
     @Override
     public void nadar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("El gato nada");
+    }
+ 
+    @Override
+    public void velocidad(){
+    
+        System.out.println("gatos 50 km");
+    
     }
     
 }
