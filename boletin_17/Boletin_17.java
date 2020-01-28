@@ -17,10 +17,19 @@ public class Boletin_17 {
     public static void main(String[] args) {
         
         
-        
-        IPodeCamiñar avestruz = new Avestruza();
-        avestruz.caminar();        
-        
+ IPodeVoar avestruz1 = new Avestruza();
+ avestruz1.voar();  
+ 
+         
+ Aves Avestruz2 = new Avestruza();
+ Avestruz2.voarHeredar();
+ 
+ Avestruza Avestruz = new Avestruza();
+ Avestruz.caminar();
+ Avestruz.voar();
+ 
+ 
+      
         
                 
         

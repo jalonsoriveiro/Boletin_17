@@ -11,4 +11,8 @@ package boletin_17;
  */
 public class Aves {
     
+    public void voarHeredar() {
+        System.out.println("La vestruz Voar");
+    }
+    
 }
